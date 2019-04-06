@@ -8,6 +8,7 @@
     // console.log(a);
     // console.log(b);
     // console.log(rest);
+ 
     const player = {
         name: 'taguchi',
         score: 55,
