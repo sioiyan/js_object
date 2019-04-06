@@ -1,23 +1,22 @@
 'use strict';
 
 {
-    // 配列
+    // オブジェクト
 
-    // const player = ['taguchi', 32];
-    const player = {
-        name: 'taguchi',
-        score: 32,
-    };
+    // const player = {
+    //     name: taguchi,
+    //     score: 32,
+    // };
+    // const fkoji = {
+    //     name: fkoji,
+    //     score: 44,
+    // };
 
-    // console.log(player.name);
-    // console.log(player['name']);
-
-    // player.score = 100;
-    // console.log(player);
-
-    // player.email = 'taguchi@gmail.com';
-    // console.log(player);
-
-    delete player.score;
-    console.log(player);
+    class Player {
+        constructor(name, score) { //メソッド
+            this.name = name;
+            this.score = score;
+        }
+    }
+    
 }
