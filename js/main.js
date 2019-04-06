@@ -1,34 +1,17 @@
 'use strict';
 
 {
-    class Player { //親クラス
-        constructor(name, score) {
-            this.name = name;
-            this.score = score;
-        }
+    // let x = 1;
+    // let y = x;
+    // x = 5;
+    // console.log(x); // 5
+    // console.log(y); // 1
 
-        showInfo() {
-            console.log(`name: ${this.name} score: ${this.score}`);
-        }
-
-    }
-
-
-    class SoccerPlayer extends Player { //子クラス
-        constructor(name, score, number) {
-            super(name, score);
-            this.number = number;
-        }
-        kick() {
-            console.log('Gooooaaaaal!');
-        }
-    }
-
-    const tsubasa = new SoccerPlayer('tsubasa', 99, 10);
-
-    tsubasa.kick();
-    console.log(tsubasa.number);
-    tsubasa.showInfo();
+    let x = [1, 2];
+    let y = x;
+    x[0] = 5;
+    console.log(x);
+    console.log(y);
 }
 
 
