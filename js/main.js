@@ -3,11 +3,11 @@
 {
     // 配列
 
-    const scores = [80, 90, 40];
-    // console.log(scores[1]); // 90
+    // const player = ['taguchi', 32];
+    const player = {
+        name: 'taguchi',
+        score: 32,
+    };
 
-    // scores[2] = 100;
-    // console.log(scores);
-
-    console.log(scores.length); // 3
+    console.log(player);
 }
