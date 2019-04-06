@@ -4,13 +4,17 @@
     // 配列
     const a = [1, 5, 10, 100];
 
-    for (let i = 0; i < a.length; i++) {
-        console.log(a[i]);
-    }
+    // const b = [];
+    // a.forEach(item => {
+    //     b.push(item * 2);
+    // });
+    // console.log(b);
 
-    a.forEach((item, index) => {
-        console.log(`${index}:${item}`);
-    });
+    // const b = a.map(item => item * 2);
+    // console.log(b);
+
+    const b = a.filter(item => item % 2 === 0);
+    console.log(b);
 }
 
 
