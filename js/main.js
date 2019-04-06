@@ -1,13 +1,21 @@
 'use strict';
 
 {
-    // Math
+    // Date
 
-    // console.log(Math.PI);
+    const d = new Date();
+    // console.log(d);
 
-    // console.log(Math.random());
+    // console.log(d.getFullYear());
+    // console.log(d.getMonth()); // 0 - 11
+    // console.log(d.getDate());
+    // console.log(d.getDay()); // 0 - 6
+    // console.log(d.getHours());
+    // console.log(d.getMinutes());
+    // console.log(d.getSeconds());
+    // console.log(d.getMilliseconds());
 
-    console.log(Math.floor(Math.random() * 6 + 1));
+    console.log(d.getTime()); // UTC 1970/01/01 00:00:00
 }
 
 
